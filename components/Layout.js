@@ -7,6 +7,9 @@ const Layout = ({children, pagina}) => {
         <div>
             <Head>
                 <title>Guitar LA - {pagina}</title>
+                <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+                <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"/>
                 <meta name='description' content='Sitio Web de venta de guitarras'/>
             </Head>
 
