@@ -9,6 +9,7 @@ const Footer = () => {
                     <Link href="/">Inicio</Link>
                     <Link href="/nosotros">Nosotros</Link>
                     <Link href="/blog">Blog</Link>
+                    <Link href="/cursos">Cursos</Link>
                     <Link href="/tienda">Tienda</Link>
                 </nav>
                 <p className={styles.copyRigth}>Todos los Derechos Reservados</p>
