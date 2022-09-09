@@ -1,10 +1,13 @@
 import Layout from "../components/Layout"
 import CursoG from "../components/CursoG"
-const cursos = ({cursos}) => {
+import styles from "../styles/CursosGen.module.css"
+const Cursos = ({cursos}) => {
     
     return (
         <Layout>
-            <main className="contenedor">
+            <h1 className="heading">Cursos</h1>
+            <main className={`contenedor ${styles.listado}`}>
+                
                 {cursos.map(curso => (
                     <CursoG curso = {curso}/>
                 ))}
@@ -26,4 +29,4 @@ export async function getServerSideProps() {
 }
 
 
-export default cursos
+export default Cursos

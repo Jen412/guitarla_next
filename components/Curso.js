@@ -8,7 +8,7 @@ const Curso = ({curso}) => {
                 <div className={styles.contenido}>
                     <h2 className="heading">{titulo}</h2>
                     <p className={styles.texto}>{contenido}</p>
-                    <Link href="/"> 
+                    <Link href="/cursos"> 
                         <a className={styles.enlace}>Más Información</a>
                     </Link>
                 </div>
